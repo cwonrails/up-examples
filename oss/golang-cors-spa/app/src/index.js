@@ -8,7 +8,7 @@ import { pets } from './api'
  * Render the app.
  */
 
-function render({ pets }) {
+function render ({ pets }) {
   ReactDOM.render(<Pets pets={pets} />, document.getElementById('app'))
 }
 

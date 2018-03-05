@@ -6,7 +6,7 @@ import Pet from './Pet'
  * Pets component.
  */
 
-export default function({ pets }) {
+export default function ({ pets }) {
   if (pets.length) {
     return <ul>
       {pets.map(p => <Pet key={p.name} {...p} />)}

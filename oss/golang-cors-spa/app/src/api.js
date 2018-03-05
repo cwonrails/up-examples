@@ -20,6 +20,6 @@ const api = axios.create({
  * Get pets.
  */
 
-export function pets() {
+export function pets () {
   return api.get('/pets/')
 }
